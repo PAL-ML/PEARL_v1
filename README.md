@@ -3,6 +3,8 @@
 Mina Khan, P Srivatsa, Advait Rane, Shriram Chenniappa, Rishabh Anand, Sherjil
 Ozair, Pattie Maes
 
+This repo provides code for the benchmark and techniques from the paper [Pretrained Encoders are All You Need](?)
+
 * [📦 Install ](#install) -- Install relevant dependencies and the project
 * [🔧 Usage ](#usage) -- Learn how to use PEAYN in colab
 
