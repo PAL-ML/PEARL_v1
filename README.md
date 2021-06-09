@@ -7,8 +7,8 @@ This repo provides code for the benchmark and techniques from the paper [Pretrai
 
 * [📦 Install ](#install) -- Install relevant dependencies and the project
 * [🏃 Usage ](#usage) -- Learn how to use PEARL in colab
-* [🔧 Configure ](#configuration) -- Change configuration to run different experiments
-* [💾 Save Embeddings ](#save) -- Generate clip embeddings for selected games
+* [🔧 Change Configurations ](#change-configurations) -- Change configuration to run different experiments
+* [💾 Save Embeddings ](#save-embeddings) -- Generate clip embeddings for selected games
 
 
 ## Install
@@ -28,7 +28,7 @@ Complete installation to run on colab can be found in any of the notebooks in `n
 
 > To run without using our saved clip embeddings, change `training_input` in `Initialization & constants` from `embeddings` to `images`. Note that making this change would require you to make several changes to the notebooks we provide, inclduing the encoder used (to CLIPEncoder).
 
-## Changing configurations
+## Change configurations
 
 #### Change game
 
@@ -48,7 +48,7 @@ Change `probe_type` in `Initialization & constants` to match any of the availabl
 
 ## Save embeddings
 
-To generate the CLIP embeddings we used in our experiments, refer to the notebooks in `notebooks/save_embeddings`.
+To generate and save the CLIP embeddings we used in our experiments, refer to the notebooks in `notebooks/save_embeddings`. These would save the embeddings to Google Drive.
 
 ### Acknowledgements
 
