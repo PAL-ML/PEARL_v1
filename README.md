@@ -26,7 +26,7 @@ Complete installation to run on colab can be found in any of the notebooks in `n
 2. Open any of the jupyter notebooks in `notebooks/experiments` in Google Colab and update the section `Initialization & constants`. Make sure the paths point to where the clip embeddings are saved as in step 1 and where saved probe and encoder checkpoints should be saved in your drive.  
 3. Run the notebook
 
-> To run without using our saved clip embeddings, change `training_input` in `Initialization & constants` from `embeddings` to `images`. Note that making this change would require you to make several changes to the notebooks we provide, inclduing the encoder used (to CLIPEncoder).
+> To run without using our saved clip embeddings, change `training_input` in `Initialization & constants` from `embeddings` to `images`. Note that making this change would require you to make several changes to the notebooks we provide, including the encoder used (to CLIPEncoder).
 
 ## Change configurations
 
