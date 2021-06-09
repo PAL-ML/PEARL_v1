@@ -24,7 +24,19 @@ Complete installation to run on colab can be found in any of the notebooks in `n
 2. Open any of the jupyter notebooks in `notebooks/experiments` in Google Colab and update the section `Initialization & constants`. Make sure the paths point to where the clip embeddings are saved as in step 1 and where saved probe and encoder checkpoints should be saved in your drive.  
 3. Run the notebook
 
-To run a different game using the same parameters, change the `env_name` in `Initialization & constants`. Refer to `game_names.txt` for complete list of games supported.
+## Changing configuration
+
+### Change game
+
+To run a different game using the same parameters, change the `env_name` in `Initialization & constants`. Refer to `game_names.txt` for complete list of supported games.
+
+### Change parameters
+
+To change parameters, refer to relevant section in `Initialization & constants`.
+
+### Change training methods for encoder/probe
+
+To change the training methods, refer to template notebooks in `notebooks/experiments`.
 
 ### Acknowledgements
 
