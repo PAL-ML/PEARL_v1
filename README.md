@@ -50,7 +50,7 @@ Change `probe_type` in `Initialization & constants` to match any of the availabl
 
 To generate and save the CLIP embeddings we used in our experiments, refer to the notebooks in `notebooks/save_embeddings`. These would save the embeddings to Google Drive.
 
-### Acknowledgements
+### Acknowledgement(s)
 
 A significant part of the code in this repo was adapted from the codebase of
 [AtariARI](https://github.com/mila-iqia/atari-representation-learning)
