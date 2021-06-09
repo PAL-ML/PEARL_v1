@@ -1,0 +1,4 @@
+gym[atari]
+wandb
+opencv-python
+scikit-learn
