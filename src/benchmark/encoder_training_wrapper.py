@@ -1,9 +1,9 @@
 import torch 
 
-from atari_rl.atariari.methods.global_infonce_stdim import CLIPGlobalInfoNCESpatioTemporalTrainer
-from atari_rl.atariari.methods.global_local_infonce import CLIPGlobalLocalInfoNCESpatioTemporalTrainer, CLIPGlobalLocalInfoNCESpatialTrainer
-from atari_rl.atariari.methods.stdim import CLIPInfoNCESpatioTemporalTrainer, CLIPInfoNCESpatioFullTrainer
-from atari_rl.atariari.methods.cpc_clip import CLIPCPCTrainer
+from pearl.src.methods.global_infonce_stdim import CLIPGlobalInfoNCESpatioTemporalTrainer
+from pearl.src.methods.global_local_infonce import CLIPGlobalLocalInfoNCESpatioTemporalTrainer, CLIPGlobalLocalInfoNCESpatialTrainer
+from pearl.src.methods.stdim import CLIPInfoNCESpatioTemporalTrainer, CLIPInfoNCESpatioFullTrainer
+from pearl.src.methods.cpc_clip import CLIPCPCTrainer
 
 def run_encoder_training(encoder, tr_eps, val_eps, config, wandb, method="global-infonce-stdim", pretrained_encoder=None):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
