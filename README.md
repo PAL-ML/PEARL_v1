@@ -16,7 +16,7 @@ $ cd pearl
 $ pip install -r requirements.txt
 ```
 
-Complete installation on running on colab can be found in any of the notebooks in `notebooks/experiments`.
+Complete installation to run on colab can be found in any of the notebooks in `notebooks/experiments`.
 
 ## Usage
 
