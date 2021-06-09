@@ -54,10 +54,3 @@ To generate and save the CLIP embeddings we used in our experiments, refer to th
 
 A significant part of the code in this repo was adapted from the codebase of
 [AtariARI](https://github.com/mila-iqia/atari-representation-learning)
-
-### Citation
-
-```
-@article{TODO}
-}
-```
