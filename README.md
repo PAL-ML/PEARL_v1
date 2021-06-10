@@ -49,6 +49,8 @@ Change `probe_type` in `Initialization & constants` to match any of the availabl
 ## Save embeddings
 
 To generate and save the CLIP embeddings we used in our experiments, refer to the notebooks in `notebooks/save_embeddings`. These would save the embeddings to Google Drive.
+Before running these notebooks , make sure to add a link to your drive folder as the parameter `drive_link`.
+The link to a folder on drive can be obtained by right-clicking on a folder and choosing the `Get Link` option.
 
 ### Acknowledgement(s)
 
