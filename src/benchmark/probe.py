@@ -505,7 +505,7 @@ class ProbeTrainer():
     
     def log_results(self, epoch_idx, *dictionaries):
         print("Epoch: {}".format(epoch_idx))
-        self.log_wandb_results(epoch_idx, dictionaries)
+        # self.log_wandb_results(epoch_idx, dictionaries)
         for dictionary in dictionaries:
             for k, v in dictionary.items():
                 print("\t {}: {:8.4f}".format(k, v))
